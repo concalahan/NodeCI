@@ -97,6 +97,6 @@ describe('User is not log in', async() => {
       }
     );
 
-    expect(result).toEqual({ error: 'You must log in' });
+    expect(result).toEqual({ error: 'You must log in!' });
   })
 });
